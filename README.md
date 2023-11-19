@@ -7,7 +7,7 @@ This Spark Java project serves as a demonstration of a Java Spark solution and c
 ## Datasets
 The input stream consists of JSON-format data from a Kafka broker with the following schema:
 
-```json
+```
 root
  |-- venue: struct (nullable = true)
  |    |-- venue_name: string (nullable = true)
